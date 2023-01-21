@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            margin: 100px;
+        }
+       
+        .box1{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(31, 190, 185);
+            transition: width 5s;
+        }
+
+        .box1:hover{
+            width:300px;
+        }
+
+        .box2{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(37, 15, 201);
+            transition: width 5s ,height 10s;
+            
+        }
+
+        .box2:hover{
+            width: 200px;
+            height: 200px;
+        }
+
+
+
+        /* 
+        
+        transition-timing-function
+
+        linear - start aend end with same time
+        ease - start low then fast and again slow
+        ease in- start slow
+        ease out - end slow
+        ease in out - start and end slow 
+        cubic-bezier(n,n,n,n)
+        */
+
+        .box3{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(18, 234, 25);
+            transition: width 5s;
+            transition-timing-function: ease;
+            
+        }
+
+        .box3:hover{
+            width: 200px;
+        }
+
+        .box4{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(234, 18, 151);
+            transition: width 5s;
+            transition-timing-function: ease-in;
+            
+        }
+
+        .box4:hover{
+            width: 200px;
+        }
+        .box5{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(18, 205, 234);
+            transition: width 10s;
+            transition-timing-function: ease-out;
+            
+        }
+
+        .box5:hover{
+            width: 200px;
+        }
+        .box6{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(234, 18, 18);
+            transition: width 5s;
+            transition-timing-function: ease-in-out;
+            
+        }
+
+        .box6:hover{
+            width: 200px;
+        }
+
+        .box7{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(233, 226, 13);
+            transition: width 5s;
+            transition-delay: 2s;
+              
+        }
+
+        .box7:hover{
+            width: 200px;
+        }
+
+        .box8{
+            
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+            background-color: rgb(233, 13, 207);
+            transition: width 5s , height 5s , transform 2s;
+    
+              
+        }
+
+        .box8:hover{
+            width: 200px;
+            height: 200px;
+            transform: rotate(180deg);
+        }
+
+    </style>
+</head>
+<body >
+    <div class="box1">
+
+    </div>
+
+    <div class="box2">
+
+    </div>
+
+    <div class="box3">
+
+    </div>
+
+    <div class="box4">
+
+    </div>
+    <div class="box5">
+
+    </div>
+    <div class="box6">
+
+    </div>
+    <div class="box7">
+
+    </div>
+
+    <div class="box8">
+
+    </div>
+</body>
+</html>

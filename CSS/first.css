@@ -1,0 +1,23 @@
+* {
+  margin: 20;
+  padding: 30;
+  color: crimson;
+  background-color: cornflowerblue;
+}
+
+p,
+div {
+  color: aqua;
+  background-color: brown;
+}
+
+.div1 {
+  color: chartreuse;
+}
+
+#div2 {
+  color: crimson;
+  height: 100px;
+  font-size: 15px;
+  background-color: rgb(66, 195, 23);
+}

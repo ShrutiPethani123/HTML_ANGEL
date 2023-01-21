@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        .b1{
+            background-color: brown;
+            color: aliceblue;
+            padding: 20px;
+            font-size: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .b2{
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .btn-grp .b
+        {
+            background-color: cornflowerblue;
+            border: none;
+            padding: 20px 40px;
+            color: rgb(227, 18, 15);
+            display: inline-block;
+            cursor: pointer;
+            float: left;
+            margin-top: 20px;
+            font-size: 20px;
+               
+        }
+
+        .btn-grp .b:hover{
+            background-color: rgb(52, 212, 143);
+        }
+
+        .btn-grp2 .b6 {
+            background-color: cornflowerblue;
+            border: none;
+            padding: 20px 40px;
+            color: rgb(227, 18, 15);
+            display: block;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .btn-grp2 .b6:hover{
+            background-color: rgb(100, 212, 52);
+        }
+
+
+        
+
+    </style>
+</head>
+<body>
+
+    <button class="b1">Normal Button</button>
+    <button class="b1 b2">Disable Button</button>
+
+    <div class="btn-grp">
+        <button class="b">A</button>
+        <button class="b">B</button>
+        <button class="b">C</button>
+        <button class="b">D</button>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+
+    <div class="btn-grp2">
+
+        <button class="b6">A</button>
+        <button class="b6">B</button>
+        <button class="b6">C</button>
+        <button class="b6">D</button>
+
+    </div>
+    
+</body>
+</html>
