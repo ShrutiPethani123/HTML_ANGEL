@@ -42,3 +42,24 @@ nav{
     text-decoration: none;
     
 }
+
+.text-box{
+    text-align: center;
+    color:aliceblue;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-box h1{
+
+    font-size: 50px;
+}
+
+.text-box p{
+
+    font-size: 15px;
+    margin-top: 10px;
+}
+
