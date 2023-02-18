@@ -63,3 +63,59 @@ nav{
     margin-top: 10px;
 }
 
+.home_btn{
+
+    text-decoration: none;
+    color:aliceblue;
+    padding:12px 34px;
+    font-size: 13px;
+    position: relative;
+    background: transparent;
+    border:1px solid white;
+    cursor:pointer ;
+}
+
+.home_btn:hover{
+
+    background-color: rgb(173, 42, 27);
+    transition: 1s;
+}
+
+
+.course{
+
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+
+.course h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.course p{
+
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.row{
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.course-col{
+
+    flex-basis: 31%;
+    background-color: rgba(218, 177, 224, 0.394);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    color: black;
+    
+}
