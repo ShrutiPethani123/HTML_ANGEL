@@ -84,7 +84,8 @@ nav{
 
 .course{
 
-    width: 100%;
+    width: 80%;
+    margin:auto;
     text-align: center;
     margin-top: 100px;
    
@@ -113,9 +114,21 @@ nav{
 .course-col{
 
     flex-basis: 31%;
-    background-color: rgba(218, 177, 224, 0.394);
+    background-color: rgba(187, 91, 145, 0.383);
     padding: 20px 20px;
     box-sizing: border-box;
+    margin-bottom: 5%;
     color: black;
     
+}
+
+h3{
+    text-align:center;
+    margin:10px;
+    font-weight: 600;
+}
+
+.course-col:hover{
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.232);
 }
